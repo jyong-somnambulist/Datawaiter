@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Datawaiter.iml" filepath="$PROJECT_DIR$/.idea/Datawaiter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-Commons/Datawaiter-Commons.iml" filepath="$PROJECT_DIR$/Datawaiter-Commons/Datawaiter-Commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-Flink-Streaming/Datawaiter-Flink-Streaming.iml" filepath="$PROJECT_DIR$/Datawaiter-Flink-Streaming/Datawaiter-Flink-Streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-Flink-core/Datawaiter-Flink-core.iml" filepath="$PROJECT_DIR$/Datawaiter-Flink-core/Datawaiter-Flink-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-Flink-sql/Datawaiter-Flink-sql.iml" filepath="$PROJECT_DIR$/Datawaiter-Flink-sql/Datawaiter-Flink-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-Java/Datawaiter-Java.iml" filepath="$PROJECT_DIR$/Datawaiter-Java/Datawaiter-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-Spark-Streaming/Datawaiter-Spark-Streaming.iml" filepath="$PROJECT_DIR$/Datawaiter-Spark-Streaming/Datawaiter-Spark-Streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-Spark-core/Datawaiter-Spark-core.iml" filepath="$PROJECT_DIR$/Datawaiter-Spark-core/Datawaiter-Spark-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-Spark-sql/Datawaiter-Spark-sql.iml" filepath="$PROJECT_DIR$/Datawaiter-Spark-sql/Datawaiter-Spark-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datawaiter-SpringBoot/Datawaiter-SpringBoot.iml" filepath="$PROJECT_DIR$/Datawaiter-SpringBoot/Datawaiter-SpringBoot.iml" />
+    </modules>
+  </component>
+</project>

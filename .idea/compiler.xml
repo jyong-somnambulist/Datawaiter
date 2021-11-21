@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Datawaiter-Spark-core" />
+        <module name="Datawaiter-Spark-Streaming" />
+        <module name="Datawaiter-Flink-Streaming" />
+        <module name="Datawaiter-Flink-sql" />
+        <module name="Datawaiter-Spark-sql" />
+        <module name="Datawaiter-Flink-core" />
+        <module name="Datawaiter-Java" />
+        <module name="Datawaiter-SpringBoot" />
+        <module name="Datawaiter-Commons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Datawaiter-commons" target="1.5" />
+      <module name="datawaiter-commons" target="1.5" />
+      <module name="Datawaiter-Commons" target="1.5" />
+      <module name="Datawaiter-Flink-core" target="8" />
+      <module name="Datawaiter-Flink-sql" target="1.5" />
+      <module name="Datawaiter-Flink-Streaming" target="8" />
+      <module name="Datawaiter-Java" target="8" />
+      <module name="Datawaiter-Spark-core" target="8" />
+      <module name="Datawaiter-Spark-sql" target="8" />
+      <module name="Datawaiter-Spark-Streaming" target="8" />
+      <module name="Datawaiter-SpringBoot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Datawaiter-SpringBoot" options="-parameters" />
+    </option>
+  </component>
+</project>

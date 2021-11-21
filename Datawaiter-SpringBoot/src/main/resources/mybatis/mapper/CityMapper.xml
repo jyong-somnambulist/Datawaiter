@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.somnambulistspringboot.mapper.CityMapper">
+
+
+    <select id="searchCitys" resultType="CityModel">
+        select * from city
+    </select>
+
+
+    <select id="queryCityById" resultType="CityModel">
+        select * from city where ID=#{id}
+    </select>
+
+    <insert id="addCityMode" parameterType="CityModel">
+        insert into city (id, name, CountryCode, District,Population) values (
+                                                                                 #{id}, #{name}, #{CountryCode}, #{District},#{Population}
+                                                                             )
+    </insert>
+    <update id="updateCityMode" parameterType="CityModel">
+        update  city set id=#{id} ,name=#{name} ,CountryCode=#{CountryCode} ,District=#{District} ,Population=#{Population}
+    </update>
+
+    <delete id="deleteCityMode" parameterType="CityModel">
+        delete from city where ID=#{id}
+    </delete>
+
+</mapper>
+
+
+
+
+
+
