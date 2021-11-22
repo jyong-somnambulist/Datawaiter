@@ -26,6 +26,9 @@ public class JDBCConfig {
     @Value("${spring.datasource.username}")
     private String username;
 
+    @Value("${spring.datasource.driver-class-name}")
+    private String driver;
+
 
     @Bean
     public DataSource getDataSrouce() {
@@ -33,6 +36,7 @@ public class JDBCConfig {
         druidDataSource.setUrl(url);
         druidDataSource.setUsername(username);
         druidDataSource.setPassword(password);
+        druidDataSource.setDriverClassName(driver);
         return druidDataSource;
     }
 

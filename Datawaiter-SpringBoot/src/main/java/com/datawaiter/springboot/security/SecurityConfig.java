@@ -55,6 +55,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser("guest").password(password).roles("vip2");
 
 
+
 //        DataSource dataSrouce = jdbcConfig.getDataSrouce();
         //jdbc方式获取
 //        auth.jdbcAuthentication()
