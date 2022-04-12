@@ -5,26 +5,35 @@
 <mapper namespace="com.datawaiter.springboot.mapper.CityMapper">
 
 
-    <select id="searchCitys" resultType="CityModel">
-        select * from city
+    <select id="searchCitys" resultType="com.datawaiter.springboot.entity.CityModel">
+        select *
+        from city
     </select>
 
 
-    <select id="queryCityById" resultType="CityModel">
-        select * from city where ID=#{id}
+    <select id="queryCityById" resultType="com.datawaiter.springboot.entity.CityModel">
+        select *
+        from city
+        where ID = #{id}
     </select>
 
-    <insert id="addCityMode" parameterType="CityModel">
-        insert into city (id, name, CountryCode, District,Population) values (
-                                                                                 #{id}, #{name}, #{CountryCode}, #{District},#{Population}
-                                                                             )
+    <insert id="addCityMode" parameterType="com.datawaiter.springboot.entity.CityModel">
+        insert into city (id, name, CountryCode, District, Population)
+        values (#{id}, #{name}, #{CountryCode}, #{District}, #{Population})
     </insert>
-    <update id="updateCityMode" parameterType="CityModel">
-        update  city set id=#{id} ,name=#{name} ,CountryCode=#{CountryCode} ,District=#{District} ,Population=#{Population}
+    <update id="updateCityMode" parameterType="com.datawaiter.springboot.entity.CityModel">
+        update city
+        set id=#{id},
+            name=#{name},
+            CountryCode=#{CountryCode},
+            District=#{District},
+            Population=#{Population}
     </update>
 
-    <delete id="deleteCityMode" parameterType="CityModel">
-        delete from city where ID=#{id}
+    <delete id="deleteCityMode" parameterType="com.datawaiter.springboot.entity.CityModel">
+        delete
+        from city
+        where ID = #{id}
     </delete>
 
 </mapper>
